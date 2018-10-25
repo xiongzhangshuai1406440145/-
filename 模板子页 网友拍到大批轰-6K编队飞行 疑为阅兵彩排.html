@@ -1,0 +1,581 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/中国战狼军事首页子页模板.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>中国战狼军事网</title>
+<style type="text/css">
+<!--
+.STYLE1 {font-size: 24px}
+.STYLE3 {color: #000000}
+.STYLE5 {
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+#Layer1 {
+	position:absolute;
+	left:382px;
+	top:956px;
+	width:150px;
+	height:130px;
+	z-index:1;
+	background-image: url(file:///D|/网页/素材/转换图/m4a1.jpg);%0D%0A%7D%0D%0A.STYLE8 {
+	color: #0066FF;
+	font-size: 18px;
+}
+.STYLE51 {font-size: 16px}
+.STYLE53 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+a:link {
+	color: #0000CC;
+	text-decoration: none;
+}
+a:visited {
+	color: #0066FF;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0099;
+	text-decoration: none;
+}
+a:active {
+	color: #00FF66;
+	text-decoration: none;
+}
+#Layer2 {
+	position:absolute;
+	left:140px;
+	top:877px;
+	width:200px;
+	height:40px;
+	z-index:1;
+}
+#Layer3 {
+	position:absolute;
+	left:140px;
+	top:1880px;
+	width:350px;
+	height:249px;
+	z-index:1;
+}
+.STYLE63 {color: #FFFFFF}
+#Layer4 {
+	position:absolute;
+	left:992px;
+	top:1880px;
+	width:150px;
+	height:100px;
+	z-index:1;
+}
+#Layer5 {
+	position:absolute;
+	left:248px;
+	top:196px;
+	width:1002px;
+	height:200px;
+	z-index:1;
+}
+.STYLE79 {
+	color: #0000FF;
+	font-weight: bold;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+
+function MM_timelinePlay(tmLnName, myID) { //v1.2
+  //Copyright 1998, 1999, 2000, 2001, 2002, 2003, 2004 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,propNum,theObj,firstTime=false;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (myID == null) { myID = ++tmLn.ID; firstTime=true;}//if new call, incr ID
+  if (myID == tmLn.ID) { //if Im newest
+    setTimeout('MM_timelinePlay("'+tmLnName+'",'+myID+')',tmLn.delay);
+    fNew = ++tmLn.curFrame;
+    for (i=0; i<tmLn.length; i++) {
+      sprite = tmLn[i];
+      if (sprite.charAt(0) == 's') {
+        if (sprite.obj) {
+          numKeyFr = sprite.keyFrames.length; firstKeyFr = sprite.keyFrames[0];
+          if (fNew >= firstKeyFr && fNew <= sprite.keyFrames[numKeyFr-1]) {//in range
+            keyFrm=1;
+            for (j=0; j<sprite.values.length; j++) {
+              props = sprite.values[j]; 
+              if (numKeyFr != props.length) {
+                if (props.prop2 == null) sprite.obj[props.prop] = props[fNew-firstKeyFr];
+                else        sprite.obj[props.prop2][props.prop] = props[fNew-firstKeyFr];
+              } else {
+                while (keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]) keyFrm++;
+                if (firstTime || fNew==sprite.keyFrames[keyFrm-1]) {
+                  if (props.prop2 == null) sprite.obj[props.prop] = props[keyFrm-1];
+                  else        sprite.obj[props.prop2][props.prop] = props[keyFrm-1];
+        } } } } }
+      } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+      if (fNew > tmLn.lastFrame) tmLn.ID = 0;
+  } }
+}
+
+function MM_timelineGoto(tmLnName, fNew, numGotos) { //v2.0
+  //Copyright 1998, 1999, 2000, 2001, 2002, 2003, 2004 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,lastKeyFr,propNum,theObj;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (numGotos != null)
+    if (tmLn.gotoCount == null) tmLn.gotoCount = 1;
+    else if (tmLn.gotoCount++ >= numGotos) {tmLn.gotoCount=0; return}
+  jmpFwd = (fNew > tmLn.curFrame);
+  for (i = 0; i < tmLn.length; i++) {
+    sprite = (jmpFwd)? tmLn[i] : tmLn[(tmLn.length-1)-i]; //count bkwds if jumping back
+    if (sprite.charAt(0) == "s") {
+      numKeyFr = sprite.keyFrames.length;
+      firstKeyFr = sprite.keyFrames[0];
+      lastKeyFr = sprite.keyFrames[numKeyFr - 1];
+      if ((jmpFwd && fNew<firstKeyFr) || (!jmpFwd && lastKeyFr<fNew)) continue; //skip if untouchd
+      for (keyFrm=1; keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]; keyFrm++);
+      for (j=0; j<sprite.values.length; j++) {
+        props = sprite.values[j];
+        if (numKeyFr == props.length) propNum = keyFrm-1 //keyframes only
+        else propNum = Math.min(Math.max(0,fNew-firstKeyFr),props.length-1); //or keep in legal range
+        if (sprite.obj != null) {
+          if (props.prop2 == null) sprite.obj[props.prop] = props[propNum];
+          else        sprite.obj[props.prop2][props.prop] = props[propNum];
+      } }
+    } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+  }
+  tmLn.curFrame = fNew;
+  if (tmLn.ID == 0) eval('MM_timelinePlay(tmLnName)');
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+
+function MM_initTimelines() { //v4.0
+    //MM_initTimelines() Copyright 1997 Macromedia, Inc. All rights reserved.
+    var ns = navigator.appName == "Netscape";
+    var ns4 = (ns && parseInt(navigator.appVersion) == 4);
+    var ns5 = (ns && parseInt(navigator.appVersion) > 4);
+    var macIE5 = (navigator.platform ? (navigator.platform == "MacPPC") : false) && (navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4);
+    document.MM_Time = new Array(1);
+    document.MM_Time[0] = new Array(1);
+    document.MM_Time["Timeline1"] = document.MM_Time[0];
+    document.MM_Time[0].MM_Name = "Timeline1";
+    document.MM_Time[0].fps = 15;
+    document.MM_Time[0][0] = new String("behavior");
+    document.MM_Time[0][0].frame = 22;
+    document.MM_Time[0][0].value = "MM_timelineGoto('Timeline1','1')";
+    document.MM_Time[0].lastFrame = 22;
+    for (i=0; i<document.MM_Time.length; i++) {
+        document.MM_Time[i].ID = null;
+        document.MM_Time[i].curFrame = 0;
+        document.MM_Time[i].delay = 1000/document.MM_Time[i].fps;
+    }
+}
+//-->
+</script>
+<!-- InstanceParam name="OptionalRegion1" type="boolean" value="true" -->
+</head>
+
+<body onload="MM_CheckFlashVersion('7,0,0,0','本页内容需要使用较新的 Macromedia Flash Player 版本。是否现在下载它？\\\');MM_timelinePlay(\\\'Timeline1\\\');MM_preloadImages(\\\'素材/3勿忘国耻：杭州乐园抗战主题毕业礼传递正能量.jpg\\\',\\\'素材/a2网友设计我军未来战略大运：运-20与安-225的“合体”1 (5).jpg\\\',\\\'素材/a加拿大曾密谋进攻美利坚1 (2).jpg\\\',\\\'素材/a加拿大曾密谋进攻美利坚1 (4).jpg\\\',\\\'素材/a加拿大曾密谋进攻美利坚1 (1).jpg\\\',\\\'素材/a加拿大曾密谋进攻美利坚1 (21).jpg\\\',\\\'素材/a加拿大曾密谋进攻美利坚16 (1).jpg\\\',\\\'素材/a加拿大曾密谋进攻美利坚36(1).jpg\\\',\\\'素材/a加拿大曾密谋进攻美利坚22(1).jpg\\\',\\\'素材/转换图\\\',\\\'素材/头版1.jpg\\\',\\\'素材/QQ图片20150606160655.fw.png\');MM_timelinePlay(\'Timeline1\');MM_preloadImages(\'素材/3勿忘国耻：杭州乐园抗战主题毕业礼传递正能量.jpg\',\'素材/a2网友设计我军未来战略大运：运-20与安-225的“合体”1 (5).jpg\',\'素材/a加拿大曾密谋进攻美利坚1 (2).jpg\',\'素材/a加拿大曾密谋进攻美利坚1 (4).jpg\',\'素材/a加拿大曾密谋进攻美利坚1 (1).jpg\',\'素材/a加拿大曾密谋进攻美利坚1 (21).jpg\',\'素材/a加拿大曾密谋进攻美利坚16 (1).jpg\',\'素材/a加拿大曾密谋进攻美利坚36(1).jpg\',\'素材/a加拿大曾密谋进攻美利坚22(1).jpg\',\'素材/转换图\',\'素材/头版1.jpg\',\);MM_timelinePlay(\'Timeline1\');MM_preloadImages(\'素材/3勿忘国耻：杭州乐园抗战主题毕业礼传递正能量.jpg\',\'素材/a2网友设计我军未来战略大运：运-20与安-225的“合体”1 (5).jpg\',\'素材/a加拿大曾密谋进攻美利坚1 (2).jpg\',\'素材/a加拿大曾密谋进攻美利坚1 (4).jpg\',\'素材/a加拿大曾密谋进攻美利坚1 (1).jpg\',\'素材/a加拿大曾密谋进攻美利坚1 (21).jpg\',\'素材/a加拿大曾密谋进攻美利坚16 (1).jpg\',\'素材/a加拿大曾密谋进攻美利坚36(1).jpg\',\'素材/a加拿大曾密谋进攻美利坚22(1).jpg\',\'素材/转换图\',\'素材/头版1.jpg\',\'素材/QQ图片20150606160655.fw.png','素材/D.jpg','素材/B.jpg');MM_timelinePlay('Timeline1');MM_preloadImages('file:///D|/网页/素材/a2网友设计我军未来战略大运：运-20与安-225的“合体”1%20(5).jpg','file:///D|/网页/素材/a加拿大曾密谋进攻美利坚1%20(2).jpg','file:///D|/网页/素材/a加拿大曾密谋进攻美利坚1%20(4).jpg','file:///D|/网页/素材/a加拿大曾密谋进攻美利坚1%20(1).jpg','file:///D|/网页/素材/a加拿大曾密谋进攻美利坚1%20(21).jpg','file:///D|/网页/素材/a加拿大曾密谋进攻美利坚16%20(1).jpg','file:///D|/网页/素材/a加拿大曾密谋进攻美利坚36(1).jpg','file:///D|/网页/素材/a加拿大曾密谋进攻美利坚22(1).jpg','file:///D|/网页/素材/转换图','file:///D|/网页/素材/头版1.jpg','file:///D|/网页/素材/QQ图片20150606160655.fw.png')">
+
+<table width="1003" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <!--DWLayoutTable-->
+  <tr>
+    <td width="1004" height="30" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      <tr>
+        <td width="1000" height="30" align="left" valign="middle" bgcolor="#FFFFFF"><span class="STYLE1"><span class="STYLE3"><a href="中国战狼军事首页.html">&copy;中国战狼军事网　</a>　　　　　　　　　　　　　　　　　　
+              <!-- #BeginDate format:fCh2m -->2015年6月26日 星期五   18:02<!-- #EndDate -->
+        </span></span></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="50" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      <tr>
+        <td width="400" height="50" valign="middle" background="file:///D|/网页/素材/111111111.jpg"><span class="STYLE51">
+          <marquee behavior="scroll" direction="right" scrolldelay="100" loop="-1" width="400">
+            <span class="STYLE53"><a href="中国战狼军事首页.html">美媒：中国升级东风5洲际导弹 40枚核弹头覆盖美国</a></span>
+            </marquee>
+        </span></td>
+        <td width="601" align="center" valign="middle" background="file:///D|/网页/素材/1111111211.jpg"><span class="STYLE8"><span style="color: #FFFFFF"><a href="中国战狼军事首页.html">设为首页</a>　收藏　<a href="登陆.html">注册</a></span><span class="STYLE63">　
+              <a href="登陆.html">登陆</a>
+            <label for="search" style="color: #000000">站内搜索</label>
+          </span>
+                <label for="search" style="color: #000000">:</label>
+                <input type="search" name="search" id="search" />
+        </span></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="102" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      <tr>
+        <td width="200" height="100" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <!--DWLayoutTable-->
+          <tr>
+            <td width="200" height="100" valign="top"><a href="中国战狼军事首页.html"><img src="素材/网站名.jpg" width="200" height="100" border="0" /></a></td>
+          </tr>
+        </table></td>
+        <td width="800"><table width="804" height="100" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+          <tr>
+            <td width="157" height="50" align="center" valign="middle" bordercolor="#FFFFFF" bgcolor="#FF0000"><span class="STYLE5"><a href="中国战狼军事首页.html">军事首页</a></span></td>
+            <td width="157" height="50" align="center" valign="middle" bordercolor="#FFFFFF" bgcolor="#FF0000"><span class="STYLE5"><a href="中国军事框架子页完整.html">中国军事</a></span></td>
+            <td width="157" height="50" align="center" valign="middle" bordercolor="#FFFFFF" bgcolor="#FF0000"><span class="STYLE5"><a href="模板子页%20网友拍到大批轰-6K编队飞行%20疑为阅兵彩排.html">环球军事</a></span></td>
+            <td width="157" height="50" align="center" valign="middle" bordercolor="#FFFFFF" bgcolor="#FF0000"><span class="STYLE5"><a href="模板子页%20网友拍到大批轰-6K编队飞行%20疑为阅兵彩排.html">国防园地</a></span></td>
+            <td width="164" height="50" align="center" valign="middle" bordercolor="#FFFFFF" bgcolor="#FF0000"><span class="STYLE5"><a href="模板子页%20网友拍到大批轰-6K编队飞行%20疑为阅兵彩排.html">战略专栏</a></span></td>
+          </tr>
+          <tr>
+            <td width="157" height="50" align="center" valign="middle" bordercolor="#FFFFFF" bgcolor="#FF0000"><span class="STYLE5"><a href="模板子页%20网友拍到大批轰-6K编队飞行%20疑为阅兵彩排.html">国防武器</a></span></td>
+            <td width="157" height="50" align="center" valign="middle" bordercolor="#FFFFFF" bgcolor="#FF0000"><span class="STYLE5"><a href="模板子页%20网友拍到大批轰-6K编队飞行%20疑为阅兵彩排.html">军事观察</a></span></td>
+            <td width="157" height="50" align="center" valign="middle" bordercolor="#FFFFFF" bgcolor="#FF0000"><span class="STYLE5"><a href="模板子页%20网友拍到大批轰-6K编队飞行%20疑为阅兵彩排.html">历史旧闻</a></span></td>
+            <td width="157" height="50" align="center" valign="middle" bordercolor="#FFFFFF" bgcolor="#FF0000"><span class="STYLE5"><a href="军事图库女兵%20层.html">军事图库</a></span></td>
+            <td width="164" height="50" align="center" valign="middle" bordercolor="#FFFFFF" bgcolor="#FF0000"><span class="STYLE5"><a href="模板子页%20网友拍到大批轰-6K编队飞行%20疑为阅兵彩排.html">军事论坛</a></span></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="200" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      <tr>
+        <td width="1000" height="200" valign="top"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image54','','file:///D|/网页/素材/头版1.jpg',1)"></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image54','','file:///D|/网页/素材/转换图',1)"></a><a href="中国战狼军事首页.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','素材/头版1.jpg',1)"><img src="素材/首页111.jpg" name="Image2" width="1000" height="200" border="0" id="Image2" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image54','','file:///D|/网页/素材/头版1.jpg',1)"></a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="1508" valign="top"><!-- InstanceBeginEditable name="EditRegion1" -->
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      <tr>
+        <td height="200" colspan="2" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <!--DWLayoutTable-->
+          <tr>
+            <td width="250" rowspan="3" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="250" height="200"><table width="250" height="200" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="250" height="40" align="center" valign="middle" background="素材/1111111211.jpg" bgcolor="#FFFFFF">[中国海警船连续巡航钓鱼岛]</td>
+                  </tr>
+                  <tr>
+                    <td width="250" height="40" align="center" valign="middle" background="素材/1111111211.jpg" bgcolor="#FFFFFF">[日元大幅度贬值人民币出手]</td>
+                  </tr>
+                  <tr>
+                    <td width="250" height="40" align="center" valign="middle" background="素材/1111111211.jpg" bgcolor="#FFFFFF">[日本：钓鱼岛这次很难守住]</td>
+                  </tr>
+                  <tr>
+                    <td width="250" height="40" align="center" valign="middle" background="素材/1111111211.jpg" bgcolor="#FFFFFF">[世界上最黑的宝宝在南非诞生]</td>
+                  </tr>
+                  <tr>
+                    <td width="250" height="40" align="center" valign="middle" background="素材/1111111211.jpg" bgcolor="#FFFFFF">[轰6K火力能够瞬间席卷日本]</td>
+                  </tr>
+                </table></td>
+                    </tr>
+            </table></td>
+            <td width="505" height="30" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="251" height="30" align="center" valign="middle" bgcolor="#CCCCCC">阿基诺甘愿将菲沦为日本殖民地？</td>
+                <td width="254" align="center" valign="middle" bgcolor="#CCCCCC">朝鲜加入亚投行就能改革开放？</td>
+              </tr>
+            </table>            </td>
+            <td width="249" rowspan="3" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="250" height="200"><table width="250" height="200" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="250" height="40" align="center" valign="middle" background="素材/1111111211.jpg">[马来西亚妄想扼制南海弱点]</td>
+                  </tr>
+                  <tr>
+                    <td width="250" height="40" align="center" valign="middle" background="素材/1111111211.jpg">[美国：三因素或引发南海开战]</td>
+                  </tr>
+                  <tr>
+                    <td width="250" height="40" align="center" valign="middle" background="素材/1111111211.jpg">[跟工兵铲比 瑞士军刀是个渣]</td>
+                  </tr>
+                  <tr>
+                    <td width="250" height="40" align="center" valign="middle" background="素材/1111111211.jpg">[安倍识时务：别把解放军惹毛]</td>
+                  </tr>
+                  <tr>
+                    <td width="250" height="40" align="center" valign="middle" background="素材/1111111211.jpg">[遏制中俄：美国已经骑虎难下]</td>
+                  </tr>
+                </table></td>
+                    </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="140" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="505" height="140" valign="top"><a href="模板子页 网友拍到大批轰-6K编队飞行 疑为阅兵彩排.html"><img src="素材/美济岛.jpg" width="505" height="140" border="0" /></a></td>
+              </tr>
+            </table>            </td>
+          </tr>
+          <tr>
+            <td height="30" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="251" height="30" align="center" valign="middle" bgcolor="#FFCC99">盘点各国垂直起降战斗机</td>
+                    <td width="254" align="center" valign="middle" bgcolor="#FFCC99">中国历史版图的变迁</td>
+              </tr>
+            </table></td>
+          </tr>
+          
+          
+          
+        </table></td>
+      </tr>
+      <tr>
+        <td width="300" height="300" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <!--DWLayoutTable-->
+          <tr>
+            <td height="35" colspan="2" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="300" height="35" valign="top"><img src="素材/防务调查.fw.png" width="300" height="35" /></td>
+                </tr>
+              </table></td>
+            </tr>
+          <tr>
+            <td height="235" colspan="2" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="300" height="235" align="left" valign="top" background="素材/防务调查图片.jpg"><p style="font-size: 16px">　您认为枭龙战机首次出口对象是？</p>
+                  <p style="font-size: 16px">
+                    　
+                      <input type="radio" name="radiobutton" value="radiobutton" />
+                    马来西亚　　　</p>
+                  <p style="font-size: 16px">
+                    　
+                      <input type="radio" name="radiobutton" value="radiobutton" />
+                    缅甸 　　　　 </p>
+                  <p style="font-size: 16px">
+                    　
+                      <input type="radio" name="radiobutton" value="radiobutton" />
+                    泰国　　　　　</p>
+                  <p style="font-size: 16px">
+                    　
+                      <input type="radio" name="radiobutton" value="radiobutton" />
+                    其他　　　　　</p></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td width="125" height="30" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="125" height="30" valign="top"><a href="#"><img src="素材/提交结果.png" width="125" height="30" border="0" /></a></td>
+              </tr>
+            </table></td>
+            <td width="175" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="175" height="30" align="center" valign="middle" bgcolor="#CCCCCC"><a href="#">点击查看结果</a></td>
+              </tr>
+            </table>            </td>
+          </tr>
+          
+          
+          
+          
+          
+          
+          
+        </table></td>
+        <td width="705" rowspan="3" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <!--DWLayoutTable-->
+          <tr>
+            <td height="50" colspan="2" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="250" height="50" align="left" valign="middle"><span class="STYLE51">当前位置：<a href="中国战狼军事首页1.html">首页</a>》<a href="模板子页 网友拍到大批轰-6K编队飞行 疑为阅兵彩排.html">环球军事</a>》正文</span></td>
+                <td width="455" align="right" valign="middle">　　　　　　　　　　<span class="STYLE8"><span class="STYLE63">
+                  　<span class="STYLE51">
+                        <label for="label" style="color: #000000">站内搜索</label>
+                  </span></span>
+                    <label for="label" style="color: #000000">:</label>
+                    <input type="search" name="search2" id="label" />
+                </span></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="1072" colspan="2" align="center" valign="top"><p class="STYLE1"><a href="模板子页 网友拍到大批轰-6K编队飞行 疑为阅兵彩排.html">网友拍到大批轰-6K编队飞行 疑为阅兵彩排</a></p>
+              <p class="STYLE1" style="font-size: 12px">2015-06-01 　　　来源：<a href="中国战狼军事首页.html">战狼军事</a></p>
+              <p align="left">　　　　<span style="font-size: 12px">近日，网友拍摄到大批空军战机编队飞行的场面，疑似在为阅兵式做准备，其中包括轰-6轰炸机与初教-6教练机编队。 </span></p>
+              <p class="STYLE1" style="font-size: 14px"><a href="#"><img src="素材/网友拍到大批轰-6K编队飞行 疑为阅兵彩排.jpg" width="423" height="176" border="0" /></a> </p>
+              <p align="left">　　　　<span style="font-size: 12px">新闻延伸：“俄军分队将参加9月3日在北京举行的抗战胜利日阅兵式。”这是俄罗斯国防部长绍伊古对中央军委副主席兼国防部长范长龙的邀请做出的回应。当地时间10日下午，范长龙在莫斯科与绍伊古会晤时表示，欢迎俄军领导人和方队今年9月赴华参加世界反法西斯战争暨<a href="http://military.china.com/baike_5Lit5Zu9.html" target="_blank">中国</a>人民抗日战争胜利70周年庆典活动。俄新社11日报道说，这是俄罗斯官方首次表明将向中国派出军人参加北京的阅兵式。</span> </p>
+              <p align="center"><a href="#"><img src="素材/网友拍到大批轰-6K编队飞行 疑为阅兵彩排2.jpg" width="344" height="210" border="0" /></a></p>
+              <p align="left">　　　　<span style="font-size: 12px">英国路透社称，中国此前一直没有说明将邀请哪些国家参加北京阅兵式，只表示可能邀请二战期间参加在中国作战的西方盟国代表。据俄罗斯卫星网报道，绍伊古说，很高兴接受中国国防部长的邀请，俄方已商定派遣一支俄军分队参加中国的阅兵仪式。但对于派出部队的规模和类别，中俄双方都没有谈及。中国国防大学教授张召忠11日在接受《环球时报》记者采访时说，一般两个国家互相参加对方的这种庆典阅兵式会遵循对等原则。此次中方派出的是102人的三军仪仗方队，那么俄罗斯应该也会派遣仪仗队类部队。如果没有仪仗队，则可能派出军乐队等部队。派遣一支战斗部队或特种部队的可能性不大。 </span></p>
+              <p align="center"><span style="font-size: 14"><a href="#"><img src="素材/网友拍到大批轰-6K编队飞行 疑为阅兵彩排3.jpg" width="328" height="217" border="0" /></a></span></p>
+              <p align="left">　　　　　<span style="font-size: 12px">在10日的会谈中，绍伊古对中国军队参加5月9日莫斯科红场阅兵表示感谢，称“在有人试图篡改历史、将法西斯主义英雄化的背景下，俄中团结具有原则性的意义。二战中的战斗友谊和互帮互助为当代俄中军事关系奠定了坚实基础”。俄新网11日评论说，中国三军仪仗队首次赴莫斯科红场参加阅兵式，在俄罗斯引起巨大轰动。有俄专家指出，俄罗斯极少派军队到他国参加阅兵式，同意派军队赴北京参加阅兵表明俄中关系达到前所未有的水平。张召忠11日对《环球时报》记者说，在他的印象中，新中国成立后，中国还没有邀请过外国军队参加阅兵式。邀请俄罗斯军队参加阅兵式的意义在于，在二战的历史上，中俄与美英法这些西方国家是同一条战线的盟国，阅兵式中有这样的大国参加，表明在历史大问题上的团结。从世界的大格局上来看，可以站在更高的高度总结走过的这70年，并对未来进行展望。</span></p>              </td>
+          </tr>
+          <tr>
+            <td width="381" height="186" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="381" height="186"><table width="380" height="180" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="380" height="30" valign="middle"><h2><a href="#">相关阅读</a></h2>                      </td>
+                  </tr>
+                  <tr>
+                    <td width="380" height="30" valign="middle"><span style="font-size: 14"><a href="#">俄方希望出口中国24架苏-35 即使被仿也算获偿</a></span></td>
+                  </tr>
+                  <tr>
+                    <td width="380" height="30" valign="middle"><a href="#">俄软化同意中国只购24架苏35 被中国一战机影响</a></td>
+                  </tr>
+                  <tr>
+                    <td width="380" height="30" valign="middle"><span style="font-size: 14"><a href="#">美媒称俄船厂希望助中国继续造野牛气垫登陆舰</a></span></td>
+                  </tr>
+                  <tr>
+                    <td width="380" height="30" valign="middle"><span style="font-size: 14"><a href="#">德媒：中国战机亮相西方 欧洲俄罗斯没钱参展</a></span></td>
+                  </tr>
+                  <tr>
+                    <td width="380" height="30" valign="middle"><span style="font-size: 14"><a href="#">美媒曝中国传统军售国赴俄谈军售 俄挖中国墙角</a></span></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>            </td>
+            <td width="324" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="324" height="186"><table width="323" height="180" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="323" height="30"><h2><a href="#">热点话题</a></h2></td>
+                  </tr>
+                  <tr>
+                    <td width="323" height="30"><a href="#">把充气娃娃拍成超模</a></td>
+                  </tr>
+                  <tr>
+                    <td width="323" height="30"><a href="#">辣得够劲的农家流水席</a></td>
+                  </tr>
+                  <tr>
+                    <td width="323" height="30"><a href="#">川渝百姓的生活</a></td>
+                  </tr>
+                  <tr>
+                    <td width="323" height="30"><a href="#">未上综艺的娃你期待谁</a></td>
+                  </tr>
+                  <tr>
+                    <td width="323" height="30"><a href="#">大学屌丝们的幸福生活</a></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>            </td>
+          </tr>
+          
+        </table>        </td>
+      </tr>
+      <tr>
+        <td height="600" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <!--DWLayoutTable-->
+          <tr>
+            <td width="300" height="600" valign="top"><a href="#"><img src="素材/b4559244e30d91c19455a522622f7dd2.gif" width="300" height="600" border="0" /></a></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="408" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <!--DWLayoutTable-->
+          <tr>
+            <td width="300" height="48" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="300" height="48" align="center" valign="middle" bgcolor="#FFCCCC"><span style="font-size: 12px"><a href="#">美国著名哲学家：儒学可出色替代西方个人主义</a></span></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="360" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="300" height="180" align="center" valign="middle"><a href="3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','素材/D.jpg',1)"><img src="素材/A.jpg" name="Image10" width="300" height="180" border="0" id="Image10" /></a></td>
+              </tr>
+              <tr>
+                <td height="180" align="center" valign="middle"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','素材/B.jpg',1)"><img src="素材/C.jpg" name="Image11" width="300" height="180" border="0" id="Image11" /></a></td>
+              </tr>
+              
+              
+            </table></td>
+          </tr>
+          
+          
+        </table></td>
+      </tr>
+    </table>
+    <!-- InstanceEndEditable --></td>
+  </tr>
+  <tr>
+    <td height="180" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      <tr>
+        <td width="1004" height="180" align="center" valign="middle" background="素材/子页.jpg"><p class="STYLE79"><a href="中国战狼军事首页.html">关于中华战狼</a> | <a href="中国战狼军事首页.html">中华网军事</a> | <a href="中国战狼军事首页.html">战略网</a> | <a href="中国战狼军事首页.html">凤凰军事 </a>|<a href="中国战狼军事首页.html"> 广告服务</a> | <a href="中国战狼军事首页.html">联系我们</a> | <a href="中国战狼军事首页.html">版权声明</a> | <a href="中国战狼军事首页.html">意见反馈</a> </p>
+          <p class="STYLE79">Copyright&copy; 2015 ChinaZhanglang.com all Rights Reserved</p>
+          <p class="STYLE79">版权所有 中华战狼  &copy;1999-2015 </p></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>
